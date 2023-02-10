@@ -15,23 +15,14 @@
     color: #2e363e;
     position: relative;
 }
-.nav__notification {
-    background-color: tomato;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
+
+.noti {
     position: absolute;
-}
-.noti-big {
-    width: 20px;
-    height: 20px;
     left: 21px;
     bottom: 17px;
 }
-.noti-nano {
+.noti-xs {
+    position: absolute;
     width: 5px;
     height: 5px;
     left: 30px;
