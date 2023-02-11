@@ -35,6 +35,19 @@
     margin-top: 8px;
     font-size: 17px;
     color: var(--gray);
+    display: flex;
+    align-items: center;
+}
+.user-component__subtitle span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 5px;
 }
 
 .user-component__column:last-child {
