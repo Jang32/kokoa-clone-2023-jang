@@ -1,0 +1,37 @@
+#no-mobile {
+    z-index: 98;
+    position: absolute;
+    top: 0;
+    height: 1000vh;
+    width: 100%;
+    background-color: var(--yellow);
+}
+#no-mobile > span {
+    position: fixed;
+    top: 48vh;
+    left: 28vw;
+}
+@media screen and (max-width: 650px) {
+    #no-mobile {
+        display: none;
+    }
+}
+
+#no-landscape {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    height: 1000vh;
+    width: 100%;
+    background-color: var(--yellow);
+}
+#no-landscape > span {
+    position: fixed;
+    top: 48vh;
+    left: 35vw;
+}
+@media (orientation: portrait) {
+    #no-landscape {
+        display: none;
+    }
+}

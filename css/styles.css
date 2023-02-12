@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -17,11 +18,13 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
     height: 1000vh;
+    min-width: 400px;
 }
 
 .main-screen {
